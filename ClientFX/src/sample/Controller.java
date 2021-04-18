@@ -22,9 +22,9 @@ public class Controller {
             //@Override
             //public void run() {
                 try {
-                    FileHandler xmlFile = new FileHandler ("logClient.xml", true);
+                    FileHandler xmlFile = new FileHandler ("logClient.%u.%g.xml", true);
                     log.addHandler (xmlFile); //Создаём новый FileHandler
-                    FileHandler txtFile = new FileHandler ("logClient.log", true);
+                    FileHandler txtFile = new FileHandler ("logClient.%u.%g.txt", true);
                     //Создаём новый класс форматирования
                     SimpleFormatter txtFormatter = new SimpleFormatter ();
                     //устанавливаем Formatter
