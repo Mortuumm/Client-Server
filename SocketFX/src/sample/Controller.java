@@ -33,9 +33,9 @@ public class Controller extends Thread{
                 }
                 {
                     try {
-                        FileHandler xmlFile = new FileHandler ("log.xml", true);
+                        FileHandler xmlFile = new FileHandler ("log.%u.%g.xml", true);
                         log.addHandler (xmlFile); //Создаём новый FileHandler
-                        FileHandler txtFile = new FileHandler ("log.log", true);
+                        FileHandler txtFile = new FileHandler ("log.%u.%g.txt", true);
                         //Создаём новый класс форматирования
                         SimpleFormatter txtFormatter = new SimpleFormatter ();
                         //устанавливаем Formatter
@@ -61,9 +61,9 @@ public class Controller extends Thread{
             public void run() {
                 try
                 {
-                    FileHandler xmlFile = new FileHandler ("log.xml", true);
+                    FileHandler xmlFile = new FileHandler ("log.%u.%g.xml", true);
                     log.addHandler (xmlFile); //Создаём новый FileHandler
-                    FileHandler txtFile = new FileHandler ("log.log", true);
+                    FileHandler txtFile = new FileHandler ("log.%u.%g.txt", true);
                     //Создаём новый класс форматирования
                     SimpleFormatter txtFormatter = new SimpleFormatter ();
                     //устанавливаем Formatter
