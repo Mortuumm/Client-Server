@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-18T13:41:48.561955300Z</date>
+  <millis>1618753308561</millis>
+  <nanos>955300</nanos>
+  <sequence>0</sequence>
+  <logger>sample.Controller</logger>
+  <level>SEVERE</level>
+  <class>sample.Controller$1</class>
+  <method>run</method>
+  <thread>25</thread>
+  <message>Ошибочка</message>
+  <exception>
+    <message>java.net.SocketException: Socket closed</message>
+    <frame>
+      <class>sun.nio.ch.NioSocketImpl</class>
+      <method>endAccept</method>
+      <line>689</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.NioSocketImpl</class>
+      <method>accept</method>
+      <line>762</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>implAccept</method>
+      <line>684</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>platformImplAccept</method>
+      <line>650</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>implAccept</method>
+      <line>626</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>implAccept</method>
+      <line>583</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>accept</method>
+      <line>540</line>
+    </frame>
+    <frame>
+      <class>sample.Controller$1</class>
+      <method>run</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>832</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
