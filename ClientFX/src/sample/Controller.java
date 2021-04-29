@@ -18,9 +18,7 @@ public class Controller {
     Socket socket = null;
     private static Logger log = Logger.getLogger(Controller.class.getName());
     public void buttonClicked(ActionEvent actionEvent) {
-       // rxThread = new Thread(new Runnable() {
-            //@Override
-            //public void run() {
+      
                 try {
                     FileHandler xmlFile = new FileHandler ("logClient.%u.%g.xml", true);
                     log.addHandler (xmlFile); //Создаём новый FileHandler
@@ -50,7 +48,4 @@ public class Controller {
                             e);
                 }
             }
-  //  });
-     //   rxThread.start();
-//}
 }
