@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-04T19:23:25.212982400Z</date>
+  <millis>1620156205212</millis>
+  <nanos>982400</nanos>
+  <sequence>0</sequence>
+  <logger>sample.Controller</logger>
+  <level>SEVERE</level>
+  <class>sample.Controller</class>
+  <method>lambda$btnStart$0</method>
+  <thread>24</thread>
+  <message>Ошибка</message>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>550</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>539</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.NioSocketImpl</class>
+      <method>bind</method>
+      <line>643</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>bind</method>
+      <line>396</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>282</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>sample.Controller</class>
+      <method>lambda$btnStart$0</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>832</line>
+    </frame>
+  </exception>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-04T19:23:45.837372700Z</date>
+  <millis>1620156225837</millis>
+  <nanos>372700</nanos>
+  <sequence>0</sequence>
+  <logger>sample.Controller</logger>
+  <level>SEVERE</level>
+  <class>sample.Controller</class>
+  <method>lambda$btnStart$0</method>
+  <thread>24</thread>
+  <message>Ошибка</message>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>550</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>539</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.NioSocketImpl</class>
+      <method>bind</method>
+      <line>643</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>bind</method>
+      <line>396</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>282</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>sample.Controller</class>
+      <method>lambda$btnStart$0</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>832</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-04T19:24:41.982796500Z</date>
+  <millis>1620156281982</millis>
+  <nanos>796500</nanos>
+  <sequence>0</sequence>
+  <logger>sample.Controller</logger>
+  <level>SEVERE</level>
+  <class>sample.Controller</class>
+  <method>lambda$btnStart$0</method>
+  <thread>24</thread>
+  <message>Ошибка</message>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>550</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>539</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.NioSocketImpl</class>
+      <method>bind</method>
+      <line>643</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>bind</method>
+      <line>396</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>282</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>sample.Controller</class>
+      <method>lambda$btnStart$0</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>832</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-04T19:32:44.191632300Z</date>
+  <millis>1620156764191</millis>
+  <nanos>632300</nanos>
+  <sequence>0</sequence>
+  <logger>sample.Controller</logger>
+  <level>SEVERE</level>
+  <class>sample.Controller</class>
+  <method>lambda$btnStart$0</method>
+  <thread>24</thread>
+  <message>Ошибка</message>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>550</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>539</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.NioSocketImpl</class>
+      <method>bind</method>
+      <line>643</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>bind</method>
+      <line>396</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>282</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>sample.Controller</class>
+      <method>lambda$btnStart$0</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>832</line>
+    </frame>
+  </exception>
+</record>
+</log>
